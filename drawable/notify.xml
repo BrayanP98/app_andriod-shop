@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/shopping" /><!--Aquí colocamos el icono -->
+    <item
+        android:id="@+id/ic_badge"
+    android:drawable="@drawable/shopping" />
+    <shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle" >
+        <corners
+
+            android:radius="1000dp"/>
+        <solid android:color="#AA2323" />
+
+    </shape>
+</layer-list>
